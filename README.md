@@ -2,6 +2,12 @@
 
 ## `Milestone 1` — Smart Contract Development
 
+Began: April, 1st, 2022
+
+Finished: May, 9th, 2022
+
+Project Repository: [the-open-network](https://github.com/XP-NETWORK/xp-the-open-network/)
+
 | # | Deliverable | Proof |
 |-|-|-|
 |1| We researched Ton NFT standards |[TIP-62](https://github.com/ton-blockchain/TIPs/issues/62)<br/>[TIP-64](https://github.com/ton-blockchain/TIPs/issues/64)|
