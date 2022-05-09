@@ -1,0 +1,10 @@
+# The Open Network (TON) Grant Delivery Report
+
+## `Milestone 1` — Smart Contract Development
+
+| # | Deliverable | Proof |
+|-|-|-|
+|1| We researched Ton NFT standards |[TIP-62](https://github.com/ton-blockchain/TIPs/issues/62)<br/>[TIP-64](https://github.com/ton-blockchain/TIPs/issues/64)|
+|2| We developed for Native NFTs: <br/>+ [Freeze](https://github.com/XP-NETWORK/xp-the-open-network/blob/b019727c7d9a48c299ed948aec93796011029997/src/contracts/bridge.ts#L179-L193)<br/>+ [Unfreeze](https://github.com/XP-NETWORK/xp-the-open-network/blob/b019727c7d9a48c299ed948aec93796011029997/src/contracts/bridge.ts#L153-L177) |<br/>+ [Freeze](https://testnet.tonscan.org/tx/11659412000003:T6Xjgg%2Fv26eKt3kaKky4qEot88nJmf3XzEEZPtb9bKs=:EQCm-kRqXmAzY-mmp_1VD0HllWH638HAXs5w3poXtDrDPqy4)<br/>+ [Unfreeze](https://testnet.tonscan.org/tx/11659904000003:SrSbs0S%2FVbGbqzej43swfZ1gKNfdWAW3dJdld7%2FI19Y=:EQCm-kRqXmAzY-mmp_1VD0HllWH638HAXs5w3poXtDrDPqy4)|
+|3| We developed for wrapped NFTs:<br/>+ [Mint](https://github.com/XP-NETWORK/xp-the-open-network/blob/b019727c7d9a48c299ed948aec93796011029997/src/contracts/bridge.ts#L99-L133) <br/>+ [Burn](https://github.com/XP-NETWORK/xp-the-open-network/blob/b019727c7d9a48c299ed948aec93796011029997/src/contracts/bridge.ts#L135-L151) |<br> + [Minting](https://testnet.tonscan.org/tx/11659176000003:5VRBdyPn3xmCUL2jZEklYdMz9rALvsUQ768YJAP9bkA=:EQCm-kRqXmAzY-mmp_1VD0HllWH638HAXs5w3poXtDrDPqy4)<br/>+ [Burning](https://testnet.tonscan.org/tx/11659904000003:SrSbs0S%2FVbGbqzej43swfZ1gKNfdWAW3dJdld7%2FI19Y=:EQCm-kRqXmAzY-mmp_1VD0HllWH638HAXs5w3poXtDrDPqy4)|
+|4| We implemented [withdrawing](https://github.com/XP-NETWORK/xp-the-open-network/blob/b019727c7d9a48c299ed948aec93796011029997/src/contracts/bridge.ts#L219-L240) the TX fees on the target chain in native tokens||
