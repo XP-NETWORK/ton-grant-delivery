@@ -15,7 +15,7 @@ Finished: May, 9th, 2022
 |1| We researched Ton NFT standards |[TIP-62](https://github.com/ton-blockchain/TIPs/issues/62)<br/>[TIP-64](https://github.com/ton-blockchain/TIPs/issues/64)|
 |2| We developed for Native NFTs: <br/>+ [Freeze](https://github.com/XP-NETWORK/xp-the-open-network/blob/b019727c7d9a48c299ed948aec93796011029997/src/contracts/bridge.ts#L179-L193)<br/>+ [Unfreeze](https://github.com/XP-NETWORK/xp-the-open-network/blob/b019727c7d9a48c299ed948aec93796011029997/src/contracts/bridge.ts#L153-L177) |<br/>+ [Freeze](https://testnet.tonscan.org/tx/11659412000003:T6Xjgg%2Fv26eKt3kaKky4qEot88nJmf3XzEEZPtb9bKs=:EQCm-kRqXmAzY-mmp_1VD0HllWH638HAXs5w3poXtDrDPqy4)<br/>+ [Unfreeze](https://testnet.tonscan.org/tx/11659904000003:SrSbs0S%2FVbGbqzej43swfZ1gKNfdWAW3dJdld7%2FI19Y=:EQCm-kRqXmAzY-mmp_1VD0HllWH638HAXs5w3poXtDrDPqy4)|
 |3| We developed for wrapped NFTs:<br/>+ [Mint](https://github.com/XP-NETWORK/xp-the-open-network/blob/b019727c7d9a48c299ed948aec93796011029997/src/contracts/bridge.ts#L99-L133) <br/>+ [Burn](https://github.com/XP-NETWORK/xp-the-open-network/blob/b019727c7d9a48c299ed948aec93796011029997/src/contracts/bridge.ts#L135-L151) |<br> + [Minting](https://testnet.tonscan.org/tx/11659176000003:5VRBdyPn3xmCUL2jZEklYdMz9rALvsUQ768YJAP9bkA=:EQCm-kRqXmAzY-mmp_1VD0HllWH638HAXs5w3poXtDrDPqy4)<br/>+ [Burning](https://testnet.tonscan.org/tx/11659904000003:SrSbs0S%2FVbGbqzej43swfZ1gKNfdWAW3dJdld7%2FI19Y=:EQCm-kRqXmAzY-mmp_1VD0HllWH638HAXs5w3poXtDrDPqy4)|
-|4| We implemented [withdrawing](https://github.com/XP-NETWORK/xp-the-open-network/blob/b019727c7d9a48c299ed948aec93796011029997/src/contracts/bridge.ts#L219-L240) the TX fees on the target chain in native tokens||
+|4| We implemented withdrawing<br/> the TX fees on the target chain in native tokens|+ [Withdrawing](https://github.com/XP-NETWORK/xp-the-open-network/blob/b019727c7d9a48c299ed948aec93796011029997/src/contracts/bridge.ts#L219-L240)|
 
 <hr>
 
@@ -33,4 +33,4 @@ Finished: May, 26th, 2022 (2 weeks ahead of schedule)
 |7|+ Pause<br/>+ Unpause<br/>for maintenance or if compromised|+ [Pause](https://github.com/XP-NETWORK/xp-the-open-network/blob/91bffbcc4d884c8bc630599557bfb41a964a3be1/func/bridge.func#L195)<br/>+ [Unpause](https://github.com/XP-NETWORK/xp-the-open-network/blob/91bffbcc4d884c8bc630599557bfb41a964a3be1/func/bridge.func#L213)<br/><br/>|
 |8|Reimburse the bridge validators their expenses|+ [Code](https://github.com/XP-NETWORK/xp-the-open-network/blob/main/func/bridge.func#L126-L156)|
 
-<hr>~
+<hr>
