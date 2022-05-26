@@ -1,12 +1,14 @@
 # The Open Network (TON) Grant Delivery Report
 
+Project Repository: [the-open-network](https://github.com/XP-NETWORK/xp-the-open-network/)
+
+<hr>
+
 ## `Milestone 1` — Smart Contract Development
 
 Began: April, 1st, 2022
 
 Finished: May, 9th, 2022
-
-Project Repository: [the-open-network](https://github.com/XP-NETWORK/xp-the-open-network/)
 
 | # | Deliverable | Proof |
 |-|-|-|
@@ -14,3 +16,21 @@ Project Repository: [the-open-network](https://github.com/XP-NETWORK/xp-the-open
 |2| We developed for Native NFTs: <br/>+ [Freeze](https://github.com/XP-NETWORK/xp-the-open-network/blob/b019727c7d9a48c299ed948aec93796011029997/src/contracts/bridge.ts#L179-L193)<br/>+ [Unfreeze](https://github.com/XP-NETWORK/xp-the-open-network/blob/b019727c7d9a48c299ed948aec93796011029997/src/contracts/bridge.ts#L153-L177) |<br/>+ [Freeze](https://testnet.tonscan.org/tx/11659412000003:T6Xjgg%2Fv26eKt3kaKky4qEot88nJmf3XzEEZPtb9bKs=:EQCm-kRqXmAzY-mmp_1VD0HllWH638HAXs5w3poXtDrDPqy4)<br/>+ [Unfreeze](https://testnet.tonscan.org/tx/11659904000003:SrSbs0S%2FVbGbqzej43swfZ1gKNfdWAW3dJdld7%2FI19Y=:EQCm-kRqXmAzY-mmp_1VD0HllWH638HAXs5w3poXtDrDPqy4)|
 |3| We developed for wrapped NFTs:<br/>+ [Mint](https://github.com/XP-NETWORK/xp-the-open-network/blob/b019727c7d9a48c299ed948aec93796011029997/src/contracts/bridge.ts#L99-L133) <br/>+ [Burn](https://github.com/XP-NETWORK/xp-the-open-network/blob/b019727c7d9a48c299ed948aec93796011029997/src/contracts/bridge.ts#L135-L151) |<br> + [Minting](https://testnet.tonscan.org/tx/11659176000003:5VRBdyPn3xmCUL2jZEklYdMz9rALvsUQ768YJAP9bkA=:EQCm-kRqXmAzY-mmp_1VD0HllWH638HAXs5w3poXtDrDPqy4)<br/>+ [Burning](https://testnet.tonscan.org/tx/11659904000003:SrSbs0S%2FVbGbqzej43swfZ1gKNfdWAW3dJdld7%2FI19Y=:EQCm-kRqXmAzY-mmp_1VD0HllWH638HAXs5w3poXtDrDPqy4)|
 |4| We implemented [withdrawing](https://github.com/XP-NETWORK/xp-the-open-network/blob/b019727c7d9a48c299ed948aec93796011029997/src/contracts/bridge.ts#L219-L240) the TX fees on the target chain in native tokens||
+
+<hr>
+
+## `Milestone 2` — Smart Contract Development
+
+Began: May, 10th, 2022
+
+Finished: May, 26th, 2022 (2 weeks ahead of schedule)
+
+| # | Deliverable | Proof |
+|-|-|-|
+||We have developed smart contracts that can:||
+|5|Trust the multisig of the bridge oracle validators|+ [Code](https://github.com/XP-NETWORK/xp-the-open-network/search?q=check_signature)|
+|6|Whitelist NFT smart contracts|+ [Code](https://github.com/XP-NETWORK/xp-the-open-network/blob/91bffbcc4d884c8bc630599557bfb41a964a3be1/func/bridge.func#L177)|
+|7|+ Pause<br/>+ Unpause<br/>for maintenance or if compromised|+ [Pause](https://github.com/XP-NETWORK/xp-the-open-network/blob/91bffbcc4d884c8bc630599557bfb41a964a3be1/func/bridge.func#L195)<br/>+ [Unpause](https://github.com/XP-NETWORK/xp-the-open-network/blob/91bffbcc4d884c8bc630599557bfb41a964a3be1/func/bridge.func#L213)<br/><br/>|
+|8|Reimburse the bridge validators their expenses|+ [Code](https://github.com/XP-NETWORK/xp-the-open-network/blob/main/func/bridge.func#L126-L156)|
+
+<hr>~
