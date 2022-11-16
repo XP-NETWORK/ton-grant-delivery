@@ -68,3 +68,42 @@ yarn test-nft
 ```
 Outcome:
 ![Outcome-2](./assets/test-2.png)
+
+## `Milestone 4` — Integrating into the Live Bridge
+
+
+| # | Deliverable | Proof |
+|-|:-:|:-:|
+|1| Developed validation logic for TON|Link|
+|2|Added TON to NFT-Indexer|Indexer|
+|3|Implemented fee estimation for TON|Proof|
+|4|Added TON to the bridge Explorer|Explorer|
+|5|Integrated TON RPC nodes|RPC|
+|6|Adde TON to the bridge UI|UI|
+|7|Deployed Smart contracts on TON|Testnet \| Mainnet|
+|8|Adde TON to the JS Libabry|XPJS|
+|9|Added TON to the bridge Widget|Widget|
+
+### 1. Validation Logic
+
+### 2. NFT-Indexer
+
+### 3. Fee Estimation
+
+### 4. Bridge Explorer
+
+
+### 5. RPC Node Integration
+
+
+### 6. Bridge UI
+
+
+### 7. Deployed Smart Contracts
+
+
+### 8. JavaScript / TypeScript Library
+
+
+### 9. Bridge Widget
+
