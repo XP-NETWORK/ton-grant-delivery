@@ -74,20 +74,31 @@ Outcome:
 
 | # | Deliverable | Proof |
 |-|:-:|:-:|
-|1| Developed validation logic for TON|Link|
-|2|Added TON to NFT-Indexer|Indexer|
-|3|Implemented fee estimation for TON|Proof|
-|4|Added TON to the bridge Explorer|Explorer|
-|5|Integrated TON RPC nodes|RPC|
-|6|Adde TON to the bridge UI|UI|
-|7|Deployed Smart contracts on TON|Testnet \| Mainnet|
-|8|Adde TON to the JS Libabry|XPJS|
-|9|Added TON to the bridge Widget|Widget|
-|10| TON wallet integration| Wallets|
+|1| Developed validation logic for TON|[Link](#1-validation-logic)|
+|2|Added TON to NFT-Indexer|[Indexer](#2-nft-indexer)|
+|3|Implemented fee estimation for TON|[Proof](#3-fee-estimation)|
+|4|Added TON to the bridge Explorer|[Explorer](#4-bridge-explorer)|
+|5|Integrated TON RPC nodes|[RPC](#5-rpc-node-integration)|
+|6|Added TON to the bridge UI|[UI](#6-bridge-ui)|
+|7|Deployed Smart contracts on TON|[Testnet](#71-testnet-smart-contracts) \| [Mainnet](#72-mainnet-smart-contracts)|
+|8|Adde TON to the JS Libabry|[XPJS](#8-javascript--typescript-library)|
+|9|Added TON to the bridge Widget|[Widget](#9-bridge-widget)|
+|10| TON wallet integration| [Wallets](#10-integrated-wallets)|
+|11| Mainnet transactions|[Links](#11-mainnet-transactions)|
 
 ### 1. Validation Logic
 
+TON-specific validation logic is most significant when bridging TO the TON chain. All the successful transactions prove the logic works as expected.
+
+<center>
+
+![TON](./assets/TON-Validators.png)
+
+</center>
+
 ### 2. NFT-Indexer
+
+NFT-Indexing allos retrieving NFT assets by a user address:
 
 <center>
 
@@ -107,12 +118,29 @@ https://nft-index.xp.network/index/nfts/27/EQB-Z_T8I5JjAT__ukAX2-yj4mIvbkC_89Q4e
 
 ### 3. Fee Estimation
 
+The target chain transaction fee is estimated & paid in the native TON tokens.
+
+<center>
+
+![TON](./assets/TON-fee-estimation.png)
+
+</center>
+
 ### 4. Bridge Explorer
 
+Explorer allows tracking NFT transfers between blockchains. Every explorer transaction contains links to the original & destination transactions.
+
+<center>
+
+![TON](./assets/TON-Explorer.png)
+
+</center>
 
 ### 5. RPC Node Integration
 
+TESTNET: https://testnet.toncenter.com/api/v2/jsonRPC
 
+MAINNET: https://toncenter.com/api/v2/jsonRPC
 ### 6. Bridge UI
 
 TON is added as a chain of departure
@@ -131,14 +159,41 @@ TON is added as a chain of destination
 
 </center>
 
-### 7. Deployed Smart Contracts
+### 7.1 Testnet Smart Contracts
 
+|Contract name|Contract Address|
+|:-:|:-:|
+|bridgeAddr| kQB2Z2E1hONMjdPeT_TR9Z_er9BSYlLJ2b19WQCFZRm9EkdH|
+|burnerAddr| kQDsnLX5GSPtnP4rmqcyQOk2oo9lRPZlT3DunnO6OLITQSVl|
+|xpnftAddr| EQDxXt6uNCbuqHY5Kmccwj9qflFzUbkiHtS3IFAbcqxpH0XM|
+
+
+### 7.2 Mainnet Smart Contracts
+
+7.2.1 STAGING Mainnet 
+
+|Contract name|Contract Address|
+|:-:|:-:|
+|bridgeAddr|kQD3Fic8toRl0SIMswto8wmy5H41CDZUGAIyIK95Al5BBUiX|
+|burnerAddr|kQBCnW4TO466p7YzKGZebnsylUSHTyxTKuwMDXo5JEQbIEOF|
+|xpnftAddr|EQCgk1I2zujGrXaNXnWZEtFD93tSKNjvRfqKV0xp7EswHgw9|
+
+7.2.2 PRODUCTION Mainnet 
+
+|Contract name|Contract Address|
+|:-:|:-:|
+|bridgeAddr|kQAhH1me417YvScu9Rn8BXjsW_9HcalciG5LmCDT04HMJt6L|
+|burnerAddr|kQDuSGRY8g6TCLC4QhlhqgLr4G_nNXTGHoXy38Mwxx-r1aGY|
+|xpnftAddr|EQABqbZubs5e3QQF3lxVZMvdaxlaIdNQWq8W1rn8rvVvWHys|
 
 ### 8. JavaScript / TypeScript Library
 
+https://github.com/XP-NETWORK/xpjs/search?q=ton
 
 ### 9. Bridge Widget
 
+
+=============== TODO ===============
 
 ### 10. Integrated Wallets
 
@@ -152,3 +207,31 @@ The bridge users can sign transaction on TON with:
 ![TON](./assets/TON-wallets.png)
 
 </center>
+
+### 11. Mainnet Transactions
+
+--------------- FROM TON ---------------
+
+TON -> : https://tonscan.org/tx/by-msg-hash/0d8r9JR6XveiCN8r7N60IHVh5FdCkSl2XZUWdT8n0rk=
+
+-> POLYGON: https://polygonscan.com/tx/0x2a7c30ca45ea7c4334601bb35163a32295a03aa7aa37a404e3bce2c87e968bc7
+
+
+
+TON -> : https://tonscan.org/tx/by-msg-hash/nJnI3fDJ4/8O/SzFDDqpfRToTUZIPh1I+P75paikfOo=
+
+-> BSC : https://bscscan.com/tx/0x02427f8c02c5abafe49b972c7dd62b98ea81f16f26d6e83d0ab8e19875a51975
+
+
+--------------- TO TON ---------------
+
+IoTeX -> : https://iotexscan.io/tx/0x04319c8349197ef08d1d28c4b5136fe5f7a55dc79d30c7f18a10666b684a8898
+
+-> TON : https://tonscan.org/tx/by-msg-hash/Zh11JLUar8eRY8PVdwg1Ak/9rKm7Vqx3Ud01uaSWf+U=
+
+
+Polygon -> : https://polygonscan.com/tx/0xec65da4ecbaf41c53f7c80cd6c4c4272a4e96f4d5156995d5e485f7e77321c11
+
+-> TON : 
+
+
