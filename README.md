@@ -83,10 +83,27 @@ Outcome:
 |7|Deployed Smart contracts on TON|Testnet \| Mainnet|
 |8|Adde TON to the JS Libabry|XPJS|
 |9|Added TON to the bridge Widget|Widget|
+|10| TON wallet integration| Wallets|
 
 ### 1. Validation Logic
 
 ### 2. NFT-Indexer
+
+<center>
+
+![TON](./assets/TON-NFT-Indexing.png)
+
+</center>
+
+NFT-Indexing is also available as API:
+
+https://nft-index.xp.network/index/nfts/27/EQB-Z_T8I5JjAT__ukAX2-yj4mIvbkC_89Q4eqlxbAyV1Gpi
+
+<center>
+
+![TON](./assets/TON-Indexing-API.png)
+
+</center>
 
 ### 3. Fee Estimation
 
@@ -98,6 +115,21 @@ Outcome:
 
 ### 6. Bridge UI
 
+TON is added as a chain of departure
+
+<center>
+
+![TON](./assets/Ton-departure.png)
+
+</center>
+
+TON is added as a chain of destination
+
+<center>
+
+![TON](./assets/Ton-destination.png)
+
+</center>
 
 ### 7. Deployed Smart Contracts
 
@@ -107,3 +139,16 @@ Outcome:
 
 ### 9. Bridge Widget
 
+
+### 10. Integrated Wallets
+
+The bridge users can sign transaction on TON with:
+- Tonkeeper
+- Tonhub
+- TON Wallet
+
+<center>
+
+![TON](./assets/TON-wallets.png)
+
+</center>
