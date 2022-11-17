@@ -192,8 +192,19 @@ https://github.com/XP-NETWORK/xpjs/search?q=ton
 
 ### 9. Bridge Widget
 
+Widget allows embedding the bridge UI in any frontend.
 
-=============== TODO ===============
+<center>
+
+![TON](./assets/TON-Widget.png)
+
+</center>
+
+<center>
+
+![TON](./assets/TON-Widget-Indexing.jpeg)
+
+</center>
 
 ### 10. Integrated Wallets
 
